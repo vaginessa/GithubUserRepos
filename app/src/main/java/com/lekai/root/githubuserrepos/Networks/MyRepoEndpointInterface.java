@@ -12,7 +12,8 @@ import retrofit2.http.GET;
  */
 
 public interface MyRepoEndpointInterface {
-    final String API_KEY = "85489f7fdeb964a14917893c8b1d08235227f13f";
+    //TODO Add your API KEY
+    final String API_KEY = "";
     @GET("repos?api_key="+API_KEY)
     Call<List<Repo>> getAllRepos();
 }
